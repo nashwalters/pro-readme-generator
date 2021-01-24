@@ -37,15 +37,53 @@ inquirer.prompt([
         message: 'How can the project be used?',
     },
     {
-        type: 'input',
-        name: 'test',
-        message: 'What tests have you written for this README?',
+        type: 'list',
+        name: 'link',
+        message: 'Do you have a link to add?',
+        choices: ["Yes", "No"],
     },
+    {
+        type: 'input',
+        name: 'linkhref',
+        message: 'What is the href of the link(if no link, leave blank)?',
+    },
+    {
+        type: 'input',
+        name: 'linklabel',
+        message: 'What is the label of your link(if no link, leave blank)?',
+    },
+    {
+        type: 'list',
+        name: 'img',
+        message: 'Do you want to add an image?',
+        choices: ["Yes", "No"],
+    },
+    {
+        type: 'input',
+        name: 'imgsrc',
+        message: 'What is the src of the image(if no img, leave blank)?',
+    },
+    {
+        type: 'input',
+        name: 'imgalt',
+        message: 'What is the alt text for the image(if no img, leave blank)?',
+    },
+    {
+        type: 'list',
+        name: 'tests',
+        message: 'What tests have you written for this README?',
+        choices: ["No tests were written", "Tests were written"],
+    },
+    {
+        type: 'input',
+        name: 'testinfo',
+        message: 'How are tests run (If no test were written leave blank)?',
+     },
     {
         type: 'list',
         name: 'contributors',
         message: 'Are you accepting contributors?',
-        choices: ["Contributions are accepted", "Contributions are not accepted at this time"],
+        choices: ["Contributions are accepted", "Contributions are not accepted"],
     },
     {
         type: 'input',
