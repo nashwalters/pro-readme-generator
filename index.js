@@ -6,6 +6,8 @@ const util = require('util');
 //import generateMardown.js
 const generateMarkdown = require('./utils/generateMarkdown')
 
+const writeFileAsync = util.promisify(fs.writeFile);
+
 // array of questions for user
 const questions =  () =>
 inquirer.prompt([
@@ -69,14 +71,7 @@ inquirer.prompt([
 
 ]);
 
-// function to write README file
-function writeToFile(fileName, data) {
-}
-
-// function to initialize program
-function init() {
-
-}
-
-// function call to initialize program
-init();
+questions()
+    .then((data) => writeFileAsync('README.md', generateMarkdown(data)))
+    .then(() => console.log('Successfully wrote to README.Md'))
+    .catch((err) => console.error(err))
