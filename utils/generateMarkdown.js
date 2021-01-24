@@ -19,14 +19,18 @@ ${data.description}
 ${data.install}
 
 ## Usage
-${data.usage}
+${data.usage}<br>
+<a href="${data.linkhref}">${data.linklabel}</a>
+<p align="center"><img src="${data.imgsrc}" alt= "${data.imgalt}" width="500px"></p>
+ 
 
 ## Contributing
 ${data.contributors}<br>
 ${data.contribute}
 
 ## Tests
-${data.test}
+${data.tests}
+${data.testinfo}
 
 ## Questions
 Contact me with any questions:
