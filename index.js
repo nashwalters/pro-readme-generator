@@ -7,7 +7,8 @@ const util = require('util');
 const generateMarkdown = require('./utils/generateMarkdown')
 
 // array of questions for user
-const questions = [
+const questions =  () =>
+inquirer.prompt([
     {
         type: 'input',
         name: 'name',
@@ -66,7 +67,7 @@ const questions = [
         choices: ["Apache-2.0", "MIT", "ISC", "GPL", "Artistic-2.0","wtfpl"],
       },
 
-];
+]);
 
 // function to write README file
 function writeToFile(fileName, data) {
