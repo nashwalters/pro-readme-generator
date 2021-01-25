@@ -26,13 +26,11 @@
 ## Usage
 
 ### Demo
-View Demo:
-
-[MP4](https://github.com/nashwalters/pro-readme-generator/assets/readme-md-demo.mp4)
-
-[Google Drive](https://drive.google.com/file/d/1Rb_5jMLZ2luunzGbPHvop5pyrQuSxf9E/view)
+[Click here to view demo](https://drive.google.com/file/d/1Rb_5jMLZ2luunzGbPHvop5pyrQuSxf9E/view)
 
 ### Screenshots
+<img src="assets/readmedemo.gif" alt= "demo of app" width="500px">
+<img src="assets/preview-readme.gif" alt= "demo of app width="500px"">
 
 ## Contributing
 Contributions are welcomed. Please first discuss the change you wish to make via issue or email, before making a change.
