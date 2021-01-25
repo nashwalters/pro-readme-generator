@@ -12,7 +12,8 @@
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
-  * [Demo and Screenshots](#demo-and-screenshots)
+  * [Demo](#demo)
+  * [Screenshots](#screenshots)
 * [Contributing](#contributing)
 * [Questions](#questions)
 * [Credits](#credits)
@@ -24,12 +25,14 @@
 
 ## Usage
 
-### Demo and Screenshots
+### Demo
 View Demo:
 
-[MP4]()
+[MP4](https://github.com/nashwalters/pro-readme-generator/blob/main/assets/readme-md-demo.mp4)
 
 [Google Drive](https://drive.google.com/file/d/1Rb_5jMLZ2luunzGbPHvop5pyrQuSxf9E/view)
+
+### Screenshots
 
 ## Contributing
 Contributions are welcomed. Please first discuss the change you wish to make via issue or email, before making a change.
