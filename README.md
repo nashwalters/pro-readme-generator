@@ -29,8 +29,11 @@
 [Click here to view demo](https://drive.google.com/file/d/1Rb_5jMLZ2luunzGbPHvop5pyrQuSxf9E/view)
 
 ### Screenshots
-<img src="assets/readmedemo.gif" alt= "demo of app" width="500px">
-<img src="assets/preview-readme.gif" alt= "demo of app width="500px"">
+<p align="center">
+<img src="assets/readmedemo.gif" alt="gif of prompts" width="600px">
+<img src="assets/preview-readme.gif" alt= "gif of readme preview" width="600px">
+<img src="assets/screencapture-SampleREADME.png" alt= "readme file" width="600px">
+</p>
 
 ## Contributing
 Contributions are welcomed. Please first discuss the change you wish to make via issue or email, before making a change.
@@ -44,7 +47,7 @@ Contributions are welcomed. Please first discuss the change you wish to make via
 
 ## Questions       
 If you have any questions, I can be reached via:
-* ##### Email: nash.walters@outlook.com
+* <bold>Email</bold>: nash.walters@outlook.com
 
 ## Credits
 * [Adam Simonini](https://github.com/adamsimonini)
