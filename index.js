@@ -111,5 +111,5 @@ inquirer.prompt([
 
 questions()
     .then((data) => writeFileAsync('SampleREADME.md', generateMarkdown(data)))
-    .then(() => console.log('Successfully wrote to sampleREADME.md'))
+    .then(() => console.log('Successfully wrote to SampleREADME.md'))
     .catch((err) => console.error(err))
