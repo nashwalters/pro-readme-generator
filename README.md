@@ -28,7 +28,7 @@
 ### Demo
 View Demo:
 
-[MP4](https://github.com/nashwalters/pro-readme-generator/blob/main/assets/readme-md-demo.mp4)
+[MP4](https://github.com/nashwalters/pro-readme-generator/assets/readme-md-demo.mp4)
 
 [Google Drive](https://drive.google.com/file/d/1Rb_5jMLZ2luunzGbPHvop5pyrQuSxf9E/view)
 
