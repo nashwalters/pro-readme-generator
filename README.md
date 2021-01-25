@@ -17,7 +17,7 @@
   * [Demo](#demo)
   * [Screenshots](#screenshots)
 * [Contributing](#contributing)
-  * [Step to Contribute](#step-to-contribute])
+  * [Steps to Contribute](#steps-to-contribute])
 * [Questions](#questions)
 * [Credits](#credits)
 * [License](#license)
@@ -34,6 +34,8 @@ A good README.md usually includes what the app is for, how to use the app, how t
 These features made the READM.md Generator a step up from basic.
 
 ## Installation
+Node.js and node modules are required.
+
 ### Nodejs
 Node.js is required on your local machine. Below I have given a quick guide to get Node.js installed.
 
@@ -75,7 +77,7 @@ When the command is invoked, the user is prompted for information about the proj
 ## Contributing
 Contributions are welcomed. Please first discuss the change you wish to make via issue or email, before making a change.
 
-#### Step to Contribute 
+### Steps to Contribute 
 1. Fork the repo on GitHub.
 2. Clone the project to your own machine.
 3. Commit changes to your own branch.
