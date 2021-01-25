@@ -12,7 +12,7 @@
 * [Description](#description)
 * [Installation](#installation)
   * [Nodejs](#nodejs)
-  * [Node Modules](#node-modules)
+  * [Dependencies](#dependencies)
 * [Usage](#usage)
   * [Demo](#demo)
   * [Screenshots](#screenshots)
@@ -51,7 +51,7 @@ node -v
 npm install npm --global
 ```
 
-### Node Modules
+### Dependencies
 [Inquirer.js](https://www.npmjs.com/package/inquirer) package was used, run the below command in the terminal for the needed node modules.
 ```bash
 npm install inquirer
