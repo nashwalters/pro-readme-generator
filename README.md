@@ -17,7 +17,6 @@
   * [Demo](#demo)
   * [Screenshots](#screenshots)
 * [Contributing](#contributing)
-  * [Steps to Contribute](#steps-to-contribute])
 * [Questions](#questions)
 * [Credits](#credits)
 * [License](#license)
@@ -77,7 +76,7 @@ When the command is invoked, the user is prompted for information about the proj
 ## Contributing
 Contributions are welcomed. Please first discuss the change you wish to make via issue or email, before making a change.
 
-### Steps to Contribute 
+Steps to contribute: 
 1. Fork the repo on GitHub.
 2. Clone the project to your own machine.
 3. Commit changes to your own branch.
