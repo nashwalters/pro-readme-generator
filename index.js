@@ -40,44 +40,49 @@ inquirer.prompt([
         type: 'list',
         name: 'link',
         message: 'Do you have a link to add?',
-        choices: ["Yes", "No"],
+        choices: ['Yes', 'No'],
     },
     {
         type: 'input',
         name: 'linkhref',
-        message: 'What is the href of the link(if no link, leave blank)?',
+        message: 'What is the href of the link?',
+        when: (data) => data.link === 'Yes'
     },
     {
         type: 'input',
         name: 'linklabel',
-        message: 'What is the label of your link(if no link, leave blank)?',
+        message: 'What is the label of your link?',
+        when: (data) => data.link === 'Yes'
     },
     {
         type: 'list',
         name: 'img',
         message: 'Do you want to add an image?',
-        choices: ["Yes", "No"],
+        choices: ['Yes', 'No'],
     },
     {
         type: 'input',
         name: 'imgsrc',
-        message: 'What is the src of the image(if no img, leave blank)?',
+        message: 'What is the src of the image?',
+        when: (data) => data.img === 'Yes'
     },
     {
         type: 'input',
         name: 'imgalt',
-        message: 'What is the alt text for the image(if no img, leave blank)?',
+        message: 'What is the alt text for the image?',
+        when: (data) => data.img === 'Yes'
     },
     {
         type: 'list',
         name: 'tests',
         message: 'What tests have you written for this README?',
-        choices: ["No tests were written", "Tests were written"],
+        choices: ['No tests were written', 'Tests were written'],
     },
     {
         type: 'input',
         name: 'testinfo',
         message: 'How are tests run (If no test were written leave blank)?',
+        when: (data) => data.tests === 'Tests were written'
      },
     {
         type: 'list',
@@ -88,7 +93,8 @@ inquirer.prompt([
     {
         type: 'input',
         name: 'contribute',
-        message: 'How can people contribute (if contributions are not accepted leave blank)?',
+        message: 'How can people contribute?',
+        when: (data) => data.contributors === 'Contributions are accepted'
     },
     {
         type: 'input',
