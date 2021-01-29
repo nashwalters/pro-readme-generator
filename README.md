@@ -30,7 +30,7 @@ A good README.md usually includes what the app is for, how to use the app, how t
 * A questions section, that the user can add contact information.
 * A license section and a license badge that appears near the top of the README.
 * The ability to add a link and an image.
-These features made the READM.md Generator a step up from basic.
+These features made the README.md Generator a step up from basic.
 
 ## Installation
 Node.js and inquirer dependency are required.
